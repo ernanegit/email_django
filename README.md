@@ -11,15 +11,15 @@ Sistema completo de autenticação desenvolvido em Django que utiliza email como
 ## 📸 Screenshots
 
 ### 🔑 Tela de Login
-![Login](docs/images/login-preview.png)
+![Login](https://github.com/ernanegit/email_django/blob/main/docs/images/login-preview.png)
 *Interface de login responsiva com validação em tempo real*
 
 ### 📊 Dashboard do Usuário
-![Dashboard](docs/images/dashboard-preview.png)
+![Dashboard](https://github.com/ernanegit/email_django/blob/main/docs/images/dashboard-preview.png)
 *Dashboard personalizado com informações do usuário e status de verificação*
 
 ### 📧 Verificação de Email
-![Email Verification](docs/images/email-verification-preview.png)
+![Email Verification](https://github.com/ernanegit/email_django/blob/main/docs/images/email-verification-preview.png)
 *Sistema de verificação de email com mensagens claras*
 
 ## 🚀 Funcionalidades
