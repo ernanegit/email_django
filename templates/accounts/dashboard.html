@@ -1,0 +1,19 @@
+<!-- templates/accounts/dashboard.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <h2>Dashboard</h2>
+        <p>Bem-vindo, {{ user.first_name }} {{ user.last_name }}!</p>
+        <p>Seu email: {{ user.email }}</p>
+        <p>Status de verificação: 
+            {% if user.is_email_verified %}
+                <span class="badge bg-success">Verificado</span>
+            {% else %}
+                <span class="badge bg-warning">Não verificado</span>
+            {% endif %}
+        </p>
+    </div>
+</div>
+{% endblock %}
